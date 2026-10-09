@@ -1,0 +1,10 @@
+import { Suspense } from 'react';
+import View from '@/views/seller/feed-request';
+
+export default function Page() {
+  return (
+    <Suspense>
+      <View />
+    </Suspense>
+  );
+}
